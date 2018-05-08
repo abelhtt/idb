@@ -1,4 +1,4 @@
-Code to scrape data from api sources.
+# Code to scrape data from API Sources.
 
 scrape_majors - scrapes data for majors.
 
@@ -12,7 +12,7 @@ scrape_cities - scrapes data for cities.
 
     contains name, state, county, population, ....
 
-Sources:
+### Sources:
 .   https://datausa.io/about/api/
 
 .   https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/
@@ -25,6 +25,6 @@ Sources:
 
 .   https://developers.google.com/image-search/v1/devguide
 
-How to run:
+### How to run:
 
    python run.py
