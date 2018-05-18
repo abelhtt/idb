@@ -102,10 +102,14 @@ class Cities extends Component {
                         population_prop = "Population: " +
                           population_prop.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                     }
-                    return (<Card name={city.city_name} model='cities'
-							domain={city.city_image_link} id={city.id}
-							field = {population_prop} key={city.id}>
-					  </Card>)
+                    return (
+                      <Card name={city.city_name}
+                            model='cities'
+							              domain={city.city_image_link}
+                            id={city.id}
+							              field = {population_prop}
+                            key={city.id}>
+					            </Card>)
                 })
                 this.setState({
                     pageCount: Math.ceil(cities.length / 20)

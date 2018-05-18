@@ -127,6 +127,20 @@ status:
 	git branch
 	git status
 
+deploy:
+        sudo apt-get update
+        sudo apt-get -y install cmake
+        sudo apt-get install git
+        sudo apt-get -y install graphviz
+        sudo apt-get -y install git
+        sudo apt-get -y install vim
+        sudo apt-get install python
+        sudo apt-get install python-pip
+        pip install flask gunicorn
+        git clone http://www.github.com/${GithubID}/${RepoName}
+        pip install -r idb/backend/Database/requirements.txt
+#to deploy -gunicorn application:application
+
 travis:
 	make clean
 	ls -al

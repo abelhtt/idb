@@ -10,12 +10,11 @@ class App extends Component {
     render() {
         return (
           <div>
-      			<NavigationBar/>
-      			<Router/>
+              <NavigationBar/>
+              <Router/>
       		</div>
-        )
+        );
     }
-
 }
 
 export default App;

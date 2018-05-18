@@ -6,13 +6,42 @@
 
 
 h2 {
-	font-family: 'Comfortaa', sans-serif;	
+	font-family: 'Comfortaa', sans-serif;
   	font-size: 3em;
-  	font-weight: 1000;	
+  	font-weight: 1000;
 }
 
 h3 {
-  	font-family: 'Comfortaa', sans-serif;	
+  	font-family: 'Comfortaa', sans-serif;
   	font-size: 1.5em;
   	font-weight: 300;
+}
+
+.tile {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: #FFF;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  min-height: 390px;
+	max-height: 390px;
+	padding-bottom: 10px;
+}
+
+.rep_info {
+  text-align: center;
+	font-family: 'Comfortaa', sans-serif;
+  width: 100%;
+  padding-top: 20px;
+	font-size: 1.35em;
+	height: 5em;
+}
+
+.field {
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size : 1em;
+	padding-bottom: 10px;
 }
